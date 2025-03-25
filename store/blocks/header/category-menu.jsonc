@@ -105,6 +105,7 @@
       }
     }
   },
+  
   "menu-item#more": {
     "props": {
       "id": "menu-item-custom-sale",
@@ -133,32 +134,37 @@
   },
   "flex-layout.row#menu-more": {
     "children": [
-      "flex-layout.col#menu-more-1",
-      "flex-layout.col#menu-more-2"
+      "flex-layout.col#menu-card-imagens", // card com imagens
+      "flex-layout.col#menu-outros-links"  // outros links
     ]
   },
-  "flex-layout.col#menu-more-1": {
-    "children": [
-      "vtex.menu@2.x:menu#more"
-    ]
-  },
-  "flex-layout.col#menu-more-2": {
+
+   // card com imagens
+   "flex-layout.col#menu-card-imagens": {
     "children": [
       "info-card#home"
     ]
   },
-  "vtex.menu@2.x:menu#more": {
+
+  // outros links
+  "flex-layout.col#menu-outros-links": {
+    "children": [
+      "vtex.menu@2.x:menu#categorias"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#categorias": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#about-us",
-      "menu-item#faq"
+      "menu-item#categoria1",
+      "menu-item#categoria2"
     ]
   },
-  "menu-item#about-us": {
+  "menu-item#categoria1": {
     "props": {
-      "id": "menu-item-about-us",
+      "id": "menu-item-categoria-1",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -166,14 +172,14 @@
         "type": "internal",
         "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "About us",
-        "text": "About us"
+        "tagTitle": "Categoria 1",
+        "text": "Categoria 1"
       }
     }
   },
-  "menu-item#faq": {
+  "menu-item#categoria2": {
     "props": {
-      "id": "menu-item-faq",
+      "id": "menu-item-categoria-2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -181,8 +187,8 @@
         "type": "internal",
         "href": "/faq",
         "noFollow": true,
-        "tagTitle": "FAQ",
-        "text": "FAQ"
+        "tagTitle": "Categoria 2",
+        "text": "Categoria 2"
       }
     }
   },

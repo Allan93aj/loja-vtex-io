@@ -1,6 +1,7 @@
 .stackItem--product {
   width: 100%;
-  min-height: 257px
+  min-height: 257px;
+  z-index: -3 !important;
 }
 
 .stackItem--quickview {

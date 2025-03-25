@@ -13,15 +13,10 @@
 
   "flex-layout.row#list-price-savings": {
     "props": {
-      "colGap": 2,
-      "preserveLayoutOnMobile": true,
-      "preventHorizontalStretch": true,
-      "marginBottom": 2,
-      "marginTop": 5
+      "blockClass": "list-price-savings"
     },
     "children": [
-      "product-list-price",
-      "product-price-savings"
+      "product-list-price"
     ]
   }
 }

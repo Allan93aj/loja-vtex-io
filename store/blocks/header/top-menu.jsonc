@@ -1,0 +1,22 @@
+{
+  // TOPBAR
+  "flex-layout.row#topbar": {
+    "props": {
+      "blockClass": "topbar",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#topbar"
+    ]
+  },
+
+  "rich-text#topbar": {
+    "props": {
+      "blockClass": "topbar",
+      "text": "1ª Troca por Nossa Conta - Produtos Exclusivos"
+    }
+  }  
+}

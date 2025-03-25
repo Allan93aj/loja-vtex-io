@@ -1,3 +1,9 @@
+/* TOP BAR */
+.paragraph--topbar{
+  color: #fff;
+  margin: 7px;
+}
+
 .container--deals {
   color: #ffffff;
   text-align: center;

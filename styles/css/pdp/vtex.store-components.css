@@ -1,0 +1,17 @@
+.productImagesContainer--list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.productImageTag  {
+    max-height: 700px !important;
+    object-fit: cover !important;
+    height: 700px !important;
+}
+
+.productImage{
+    width: 48.5%;
+      overflow: hidden;
+      cursor: url(https://beagle.vtexassets.com/assets/vtex/assets-builder/beagle.tema/7.0.33/icons/icon-cursor___91618bb….svg), auto;
+  }
