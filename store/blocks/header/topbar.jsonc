@@ -1,0 +1,59 @@
+{
+  // Topbar em slider
+  "flex-layout.row#topbar": {
+    "children": [
+      "slider-layout#topbar"
+    ],
+    "props": {
+      "blockClass": "topbar",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    }
+  },
+
+  "slider-layout#topbar": {
+    "children": [
+      "rich-text#topbar1", 
+      "rich-text#topbar2",
+      "rich-text#topbar3"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "autoplay": {
+        "timeout": "3000",
+        "stopOnHover": true
+      },
+      "blockClass": "carrossel-topbar"
+    }
+  },
+
+  "rich-text#topbar1": {
+    "props": {
+      "text": "1ª Troca por Nossa Conta - Produtos Exclusivos",
+      "blockClass": "topbar"
+    }
+  },
+
+  "rich-text#topbar2": {
+    "props": {
+      "text": "1ª Troca por Nossa Conta - Produtos Exclusivos",
+      "blockClass": "topbar"
+    }
+  },
+
+  "rich-text#topbar3": {
+    "props": {
+      "text": "1ª Troca por Nossa Conta - Produtos Exclusivos",
+      "blockClass": "topbar"
+    }
+  }
+}

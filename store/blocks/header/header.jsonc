@@ -41,7 +41,7 @@
       "fullWidth": true
     },
     "children": [
-      "flex-layout.col#logo-desktop",
+      "link#logo", // logo envolvida no H1 
       "flex-layout.col#category-menu",
       "search-bar",
       "locale-switcher",
@@ -49,12 +49,26 @@
       "minicart.v2"
     ]
   },
-  "flex-layout.col#logo-desktop": {
-    "props": {
-      "verticalAlign": "middle"
+
+    // Logo envolvida em H1 para SEO
+    "link#logo": {
+      "children": [
+        "rich-text#logo"
+      ],
+      "props": {
+        "blockClass": "logoh1",
+        "href": "/"
+      }
     },
-    "children": ["logo#desktop"]
-  },
+  
+    "rich-text#logo": {
+      "props": {
+        "text": "# ![image](assets/icons/logo.svg)",
+        "blockClass": "logoh1"
+      },
+      "title": "Logo"
+    },
+
   "flex-layout.col#category-menu": {
     "props": {
       "verticalAlign": "middle"

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="70" viewBox="0 0 300 70" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradientes -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2b2d42;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1b2e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e63946;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6b6b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Fundo do Logo com gradiente -->
+  <rect x="0" y="0" width="300" height="70" rx="15" fill="url(#gradient)"/>
+  
+  <!-- Elemento decorativo -->
+  <path d="M0 0 L70 0 L0 70 Z" fill="#e63946" opacity="0.2"/>
+  
+  <!-- Texto "Aprenda" -->
+  <text x="25" y="35" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="600" fill="#ffffff" opacity="0.9">
+    Aprenda
+  </text>
+  
+  <!-- Texto "VTEX IO" -->
+  <text x="120" y="35" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800" fill="url(#textGradient)">
+    VTEX
+    <tspan x="195" fill="#ffffff">IO</tspan>
+  </text>
+  
+  <!-- Linha decorativa -->
+  <line x1="25" y1="42" x2="240" y2="42" stroke="#e63946" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Ícone de aprendizado moderno -->
+  <g transform="translate(260, 35)">
+    <!-- Círculo externo -->
+    <circle r="15" fill="none" stroke="#e63946" stroke-width="2"/>
+    
+    <!-- Símbolo de aprendizado -->
+    <path d="M-8 0 L8 0 M0 -8 L0 8" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Pontos decorativos -->
+    <circle cx="-10" cy="-10" r="2" fill="#e63946"/>
+    <circle cx="10" cy="-10" r="2" fill="#e63946"/>
+    <circle cx="-10" cy="10" r="2" fill="#e63946"/>
+    <circle cx="10" cy="10" r="2" fill="#e63946"/>
+  </g>
+  
+  <!-- Efeito de brilho -->
+  <circle cx="25" cy="25" r="8" fill="#ffffff" opacity="0.1" filter="blur(4px)"/>
+</svg> 
